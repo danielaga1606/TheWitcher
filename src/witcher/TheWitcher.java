@@ -4,7 +4,6 @@ public class TheWitcher {
 private String name;
 private int health;
 private boolean hasSould;
-private boolean hassSould;
 public String getName() {
 	return name;
 }
@@ -17,11 +16,11 @@ public int getHealth() {
 public void setHealth(int health) {
 	this.health = health;
 }
-public boolean isHassSould() {
-	return hassSould;
+public boolean isHasSould() {
+	return hasSould;
 }
-public void setHassSould(boolean hassSould) {
-	this.hassSould = hassSould;
+public void setHasSould(boolean hassSould) {
+	this.hasSould = hassSould;
 }
 
 
@@ -46,8 +45,8 @@ public boolean isDeath() {
 
 		TheWitcher wizard = new TheWitcher();
 		wizard.setName("Merlin");
-		wizard.setHealth(15);
-		wizard.setHassSould(true);
+		wizard.setHealth(8);
+		wizard.setHasSould(true);
   if (wizard.isDeath()== true) {
 	  System.out.println(wizard.getName()+" está muerto");
   }
